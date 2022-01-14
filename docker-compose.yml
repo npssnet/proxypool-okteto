@@ -1,0 +1,7 @@
+services:
+  web:
+    public: true
+    image: okteto.dev/proxypool:golang
+    replicas: 1
+    ports:
+      -8080
